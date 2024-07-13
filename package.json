@@ -1,0 +1,33 @@
+{
+  "name": "docker-compose-commands",
+  "version": "1.0.0",
+  "description": "Cli Commands to help work with docker compose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukovoz/docker-compose-commands.git"
+  },
+  "keywords": [
+    "docker",
+    "cli",
+    "docker-compose"
+  ],
+  "author": "Oleg Mukovoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mukovoz/docker-compose-commands/issues"
+  },
+  "homepage": "https://github.com/mukovoz/docker-compose-commands#readme",
+  "type": "module",
+  "bin": {
+    "docker-compose-down": "down.js",
+    "docker-compose-up": "up.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "shelljs": "^0.8.5"
+  }
+}
