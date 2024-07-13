@@ -1,6 +1,6 @@
 CLI commands to help work with docker
 
-# Installation via npm
+# Local Installation via npm
 <pre>
 npm install docker-compose-commands
 </pre>
@@ -11,3 +11,10 @@ To down all exist containers you can run from any place
 
 To start all containers you need for current project you can run 
 <pre>npx docker-compose-up</pre>
+
+# Global Installation
+You will able run this command from any place in the system
+<pre>
+npm install docker-compose-commands
+cd node_modules/docker-compose-commands && npm link
+</pre>
